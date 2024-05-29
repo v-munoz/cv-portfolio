@@ -1,2 +1,2 @@
 # cv-portfolio
-Este repositorio contiene mi currículum vitae y portfolio profesional con información detallada sobre mi experiencia laboral, educación, habilidades técnicas y proyectos destacados.
+Este repositorio contiene mi currículum y portfolio profesional con información detallada sobre mi experiencia laboral, educación, habilidades técnicas y proyectos destacados.
