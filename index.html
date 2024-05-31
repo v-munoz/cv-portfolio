@@ -11,301 +11,383 @@
     <link rel="stylesheet" href="./style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 </head>
 
 <body data-bs-theme="light">
 
-
-    <main class="container">
+    <main class="container pt-5">
         <header>
-            <div class="row row-cols-auto justify-content-center justify-content-lg-between align-items-center">
+            <section class="row row-cols-auto justify-content-center justify-content-xl-between align-items-center">
                 <div class="col-auto text-center">
                     <h1>Víctor Muñoz</h1>
-                    <h2 class="text-warning text-capitalize">app developer</h2>
+                    <h2 class="text-warning text-capitalize">Software Developer</h2>
                 </div>
 
-                <div class="col-auto">
-                    <ul class="list-group">
-                        <li class="list-group-item d-flex align-items-center">
-                            <i class="bi-github fs-3 m-0"></i>
-                            GitHub
-                        </li>
-                        <li class="list-group-item">
-                            LinkedIn
-                        </li>
-                        <li class="list-group-item">
-                            Email
-                        </li>
-                        <li class="list-group-item">
-                            Teléfono
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row justify-content-center my-3">
-                <div class="col-auto d-flex gap-3 bg-body-secondary rounded-2 border">
-                    <i class="bi-0-circle"></i>
-                    <i class="bi-1-circle"></i>
-                    <i class="bi-2-circle"></i>
-                </div>
-            </div>
+                <div class="col-auto my-2">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-1 g-2 contacto">
+                        <div class="col text-nowrap">
+                            <div class="rounded-pill border p-0 pe-3">
+                                <a href="https://github.com/vmaray" class="text-reset text-decoration-none">
+                                    <span class="contacto-logo bg-primary-subtle border-2 rounded-pill">
+                                        <i class="bi-github fs-6 me-1"></i>
+                                        GitHub
+                                    </span>
+                                    <span class="small">vmaray</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col text-nowrap">
+                            <div class="rounded-pill border p-0 pe-3">
+                                <a href="https://www.linkedin.com/in/v%C3%ADctor-mu%C3%B1oz-pav%C3%B3n-122966295/" class="text-reset text-decoration-none">
+                                    <span class="contacto-logo bg-primary-subtle border-2 rounded-pill">
+                                        <i class="bi-linkedin fs-6 me-1"></i>
+                                        LinkedIn
+                                    </span>
+                                    <span class="small">Víctor Muñoz Pavón</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col text-nowrap">
+                            <div class="rounded-pill border p-0 pe-3">
+                                <span class="contacto-logo bg-primary-subtle border-2 rounded-pill">
+                                    <i class="bi-envelope-at fs-6 me-1"></i>
+                                    Email
+                                </span>
+                                <span class="small">v.munozpav@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="col text-nowrap">
+                            <div class="rounded-pill border p-0 pe-3">
+                                <span class="contacto-logo bg-primary-subtle border-2 rounded-pill">
+                                    <i class="bi-telephone fs-6 me-1"></i>
+                                    Teléfono
+                                </span>
+                                <span class="small">(+34) 699 71 55 11</span>
+                            </div>
+                        </div>
+                    </div>
 
+            </section>
+
+            <section class="container mt-4 col-md-6">
+                <div class="d-flex flex-wrap rounded-pill bg-body-tertiary p-2 justify-content-evenly">
+                    <img src="./img/logos/java.png" class="tech-logo">
+                    <img src="./img/logos/spring-boot.png" class="tech-logo">
+                    <img src="./img/logos/php.png" class="tech-logo">
+                    <img src="./img/logos/react.png" class="tech-logo">
+                    <img src="./img/logos/py.png" class="tech-logo">
+                    <img src="./img/logos/SQL.png" class="tech-logo">
+                    <img src="./img/logos/firebase.png" class="tech-logo">
+                </div>
+            </section>
         </header>
 
-        <hr class="flex-fill">
+        <hr />
 
         <div class="container text-start">
             <section class="my-5">
                 <h3 class="">Sobre mí</h3>
-                <p>
-                    Técnico en Desarrollo de Aplicaciones Multiplataforma (DAM),
-                    con experiencia previa como profesor de inglés. Destaco por mi capacidad de comunicación efectiva,
-                    trabajo en equipo y resolución de problemas adquiridas durante varios años de enseñanza.
-                    Mi fascinación por la tecnología me llevó a buscar nuevos desafíos y oportunidades en este sector.
+                <p class="fw-light">
+                    Técnico DAM recién graduado con gran entusiasmo por el desarrollo de software multiplataforma.
+                    Busco la oportunidad de sumergirme en el apasionante mundo del desarrollo de software y contribuir
+                    al desarrollo de aplicaciones innovadoras y de alta calidad.
                 </p>
             </section>
 
             <section class="my-5">
                 <h3 class="">Experiencia</h3>
-                <ul id="experience" class="list-group my-3">
-                    <li class="card bg-body-tertiary">
-                        <div class="row">
-                            <div class="col-md-2 d-md-grid my-auto text-center font-monospace small border-end">
+                <ul class="list-group pt-2">
+                    <li class="list-group-item border bg-body-tertiary rounded-2">
+                        <div class="row gap-3">
+                            <div class="experience-date col mx-2 d-md-grid my-auto text-center font-monospace small">
                                 <span>Nov 2023</span>
-                                <span class="mx-2">/</span>
+                                <span>/</span>
                                 <span>Marzo 2024</span>
                             </div>
+
                             <div class="col-md-10">
-                                <div class="card-body">
-                                    <h3 class="card-title text-primary">Desarrollador PHP</h4>
-                                        <h5>
-                                            <a href="https://thespringlabs.com/" class="link-warning">
-                                                The Spring Labs <i class="bi-arrow-up-right"></i>
-                                            </a>
-                                        </h5>
-                                        <p class="card-text mt-3">Desarrollo web full stack con PHP, JavaScript, HTML y
-                                            Bootstrap CSS</p>
-                                </div>
+                                <h4 class="card-title text-primary">Desarrollador PHP</h4>
+                                <h5>
+                                    <a href="https://thespringlabs.com/" class="link-warning">
+                                        The Spring Labs <i class="bi-arrow-up-right"></i>
+                                    </a>
+                                </h5>
+                                <p class="card-text small">
+                                    Desarrollo web full stack con un enfoque principal en PHP utilizando el framework Slim,
+                                    junto con tecnologías complementarias como JavaScript, HTML y Bootstrap CSS.
+                                </p>
                             </div>
                         </div>
                     </li>
-
-                    <button type="button" class="btn btn-sm d-flex w-100 align-items-center mt-3 text-secondary">
-                        <hr class="flex-fill">
-                        <span class="small mx-4">Ver experiencia en otros sectores</span>
-                        <hr class="flex-fill">
-                    </button>
-
-                    <!--
-                        <li class="row d-flex bg-body-tertiary shadow p-4 rounded-2">
-                        <div class="col-auto d-flex d-lg-grid my-auto font-monospace text-center pe-lg-4 border-end">
-                            <span>Nov 2023</span>
-                            <span class="mx-2">/</span>
-                            <span>Marzo 2024</span>
-                        </div>
-                        <div class="col-auto ms-lg-4">
-                            <h4 class="">Desarrollador PHP</h4>
-                            <h5 class="text-info">Lech Tech Solutions</h5>
-                            <div class="col-auto">
-                                <span>Desarrollo web full stack con PHP, JavaScript, HTML y Bootstrap CSS</span>
-                            </div>
-                        </div>
-                    </li>
-                    -->
                 </ul>
-            </section>
-
-            <section class="my-5">
-                <h3>Proyectos</h3>
-                <div class="row row-gap-4 mx-auto text-center">
-
-                    <div class="col-12 col-md-3">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card">
-                            <div class="card-header p-5">imagen</div>
-                            <div class="card-body">
-                                MusicAll
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
 
-            <section class="my-5">
-                <h3>Formación</h3>
+                <button type="button" class="btn btn-sm d-flex w-100 align-items-center my-2 text-secondary"
+                    data-bs-toggle="collapse" href="#collapseOtherExperience" aria-expanded="false"
+                    aria-controls="collapseOtherExperience">
+                    <hr class="flex-fill">
+                    <span class="small mx-4">Ver experiencia en otros sectores</span>
+                    <hr class="flex-fill">
+                </button>
 
-                <div class="d-grid row-gap-3 ms-4 p-3">
-                    <div class="row">
-                        <div class="col-auto small font-monospace border-end">2022-2024</div>
-                        <div class="col">
-                            <h5>CFGS en Desarrollo de Aplicaciones Multiplataforma</h5>
-                            <p>iFP - Grupo Planeta Formación y Universidades</p>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-auto small font-monospace border-end">2019-2020</div>
-                        <div class="col">
-                            <h5>Máster en Formación del Profesorado - Inglés</h5>
-                            <p>Universidad Complutense de Madrid</p>
-                        </div>
-                    </div>
+                <ul class="collapse list-group gap-3" id="collapseOtherExperience">
+                    <li class="list-group-item border bg-body-tertiary rounded-2">
+                        <div class="row gap-3">
+                            <div class="experience-date col mx-2 my-auto text-center font-monospace small">
+                                <span>2021</span>
+                                <span>/</span>
+                                <span>2022</span>
+                            </div>
 
-                    <div class="row">
-                        <div class="col-auto small font-monospace border-end">2016-2017</div>
-                        <div class="col">
-                            <h5>Máster en Ciencia Cognitiva y Lenguaje</h5>
-                            <p>Universidad de Barcelona</p>
+                            <div class="col-md-10">
+                                <h4 class="card-title text-primary">Profesor interino de Inglés</h4>
+                                <h5>
+                                    IES. Juanelo Turriano
+                                    <span class="small text-muted"> - Toledo</span>
+                                </h5>
+                            </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="row">
-                        <div class="col-auto small font-monospace border-end">2012-2016</div>
-                        <div class="col">
-                            <h5>Grado en Estudios Ingleses</h5>
-                            <p>Universidad de Alcalá</p>
+                    <li class="list-group-item border bg-body-tertiary rounded-2">
+                        <div class="row gap-3">
+                            <div class="experience-date col mx-2 my-auto text-center font-monospace small">
+                                <span>2020</span>
+                                <span>/</span>
+                                <span>2021</span>
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4 class="card-title text-primary">Profesor interino de Inglés</h4>
+                                <h5 class="text-">
+                                    IES. Arcipreste de Canales
+                                    <span class="small text-muted"> - Recas (Toledo)</span>
+                                </h5>
+                            </div>
                         </div>
+                    </li>
+
+                    <li class="list-group-item border bg-body-tertiary rounded-2">
+                        <div class="row gap-3">
+                            <div class="experience-date col mx-2 my-auto text-center font-monospace small">
+                                <span>2017</span>
+                                <span>/</span>
+                                <span>2018</span>
+                            </div>
+
+                            <div class="col-md-10">
+                                <h4 class="card-title text-primary">Profesor-Tutor de Inglés para la prueba de
+                                    acceso a la Universidad</h4>
+                                <h5 class="text-">
+                                    UNED
+                                    <span class="small text-muted"> - Aula de Mora (Toledo)</span>
+                                </h5>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        </ul>
+        </section>
+
+
+        <section class="my-5">
+            <h3>Formación</h3>
+
+            <div class="d-grid row-gap-3 ms-4 p-3">
+                <div class="row">
+                    <div class="col-auto small font-monospace border-end">2022-2024</div>
+                    <div class="col">
+                        <h5>CFGS en Desarrollo de Aplicaciones Multiplataforma</h5>
+                        <p>iFP - Grupo Planeta Formación y Universidades</p>
                     </div>
                 </div>
 
-                <article class="text-center my-3">
-                    <h5 class="my-4 border-bottom">Otra Formación</h5>
-
-                    <div class="d-flex gap-3">
-                        <div class="card col-4">
-                            <div class="card-header">
-                                <br><br>
-                                <span class="badge bg-warning position-absolute top-0 start-0 translate-middle-z">100
-                                    horas</span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Certificado de Extensión Universitaria en
-                                    Ciberseguridad</h5>
-                                <p class="card-text">
-                                    Universidad de Málaga y Samsung
-                                    <br>
-                                    <span class="small">2024</span>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="badge rounded-pill bg-danger px-2">WireShark</div>
-                                <div class="badge rounded-pill bg-danger px-2">Nmap</div>
-                                <div class="badge rounded-pill bg-danger px-2">WireShark</div>
-                                <div class="badge rounded-pill bg-danger px-2">Nmap</div>
-                            </div>
-                        </div>
-
-                        <div class="card col-4">
-                            <div class="card-header">
-                                <br><br>
-                                <span class="badge bg-warning position-absolute top-0 start-0 translate-middle-z">100
-                                    horas</span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Certificado de Extensión Universitaria en
-                                    Ciberseguridad</h5>
-                                <p class="card-text">
-                                    Universidad de Málaga y Samsung
-                                    <br>
-                                    <span class="small">2024</span>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="badge rounded-pill bg-danger px-2">WireShark</div>
-                                <div class="badge rounded-pill bg-danger px-2">Nmap</div>
-                                <div class="badge rounded-pill bg-danger px-2">WireShark</div>
-                                <div class="badge rounded-pill bg-danger px-2">Nmap</div>
-                            </div>
-                        </div>
-
-                        <div class="card col-4">
-                            <div class="card-header">
-                                <br><br>
-                                <span class="badge bg-warning position-absolute top-0 start-0 translate-middle-z">100
-                                    horas</span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Certificado de Extensión Universitaria en
-                                    Ciberseguridad</h5>
-                                <p class="card-text">
-                                    Universidad de Málaga y Samsung
-                                    <br>
-                                    <span class="small">2024</span>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="badge rounded-pill bg-danger px-2">WireShark</div>
-                                <div class="badge rounded-pill bg-danger px-2">Nmap</div>
-                                <div class="badge rounded-pill bg-danger px-2">WireShark</div>
-                                <div class="badge rounded-pill bg-danger px-2">Nmap</div>
-                            </div>
-                        </div>
-
+                <div class="row">
+                    <div class="col-auto small font-monospace border-end">2019-2020</div>
+                    <div class="col">
+                        <h5>Máster en Formación del Profesorado - Inglés</h5>
+                        <p>Universidad Complutense de Madrid</p>
                     </div>
+                </div>
 
-                </article>
-            </section>
+                <div class="row">
+                    <div class="col-auto small font-monospace border-end">2016-2017</div>
+                    <div class="col">
+                        <h5>Máster en Ciencia Cognitiva y Lenguaje</h5>
+                        <p>Universidad de Barcelona</p>
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col-auto small font-monospace border-end">2012-2016</div>
+                    <div class="col">
+                        <h5>Grado en Estudios Ingleses</h5>
+                        <p>Universidad de Alcalá</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="my-5">
+            <h3>Cursos y Certificados</h3>
+
+            <div class="row row-gap-4 pt-2">
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://www.europe-samsung.com/smsdev/Formacion/Detalle/formate_en_ciberseguridad_con_samsung_dev_spain_y_la_universidad_de_malaga_uma/64294f22-c9d4-415a-ac56-174e861c2021"
+                        class="card text-decoration-none">
+                        <div class="card-header cursos-ciber">
+                            <span
+                                class="badge bg-warning text-dark font-monospace rounded-1 position-absolute top-0 end-0 translate-middle-z">150
+                                horas</span>
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title text-primary">Certificado de Extensión Universitaria en
+                                Ciberseguridad</h5>
+                            <p class="card-text">
+                                Universidad de Málaga y <span class="text-nowrap">Samsung dev Spain</span>
+                            </p>
+                            <p class="card-subtitle small fw-light text-end">2024</p>
+
+                        </div>
+                        <div class="card-footer d-flex flex-wrap gap-1 justify-content-evenly">
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Criptografía</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">SOC</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Kali Linux</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Hydra</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Snort</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">WireShark</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Nmap</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Samsung Knox</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://www.codecademy.com/learn/paths/data-science-nlp" class="card text-decoration-none">
+                        <div class="card-header cursos-data">
+                            <span
+                                class="badge bg-warning text-dark font-monospace rounded-1 position-absolute top-0 end-0 translate-middle-z">100
+                                horas</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Data Scientist: Natural Language Processing
+                                Specialist</h5>
+                            <p class="card-text">Codecademy</p>
+                            <p class="card-subtitle small fw-light text-end">2024</p>
+                        </div>
+
+                        <div class="card-footer d-flex flex-wrap gap-1 justify-content-evenly">
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Python</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Pandas</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">NLTK</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">SciKit</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">MatPlotLib</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">TensorFlow</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" class="card text-decoration-none">
+                        <div class="card-header cursos-ciber">
+                            <span
+                                class="badge bg-warning text-dark font-monospace rounded-1 position-absolute top-0 end-0 translate-middle-z">30
+                                horas
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Introducción al Desarrollo Seguro de Aplicaciones Web
+                            </h5>
+                            <p class="card-text">Deloitte</p>
+                            <p class="card-subtitle small fw-light text-end">2023</p>
+                        </div>
+
+                        <div class="card-footer d-flex flex-wrap gap-1 justify-content-evenly">
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">SDLC-IT</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">OWASP</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">BISMM</div>
+                            <div class="badge rounded-pill bg-success-subtle text-reset fw-medium">Testing</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="my-5">
+            <h3>Proyectos</h3>
+            <div class="row row-gap-4 text-center py-2">
+
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header p-5">imagen</div>
+                        <div class="card-body">
+                            MusicAll
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         </div>
     </main>

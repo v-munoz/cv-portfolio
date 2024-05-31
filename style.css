@@ -2,9 +2,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    margin: 150px 0 50px 0;
+    margin: 100px 0 50px 0;
 }
-
 
 h1 {
     font-size: 5rem;
@@ -12,4 +11,66 @@ h1 {
 
 h2 {
     font-size: 4rem
+}
+
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (min-width: 1200px) {
+    .contacto {
+        flex-direction: column;
+    }
+}
+
+.contacto-logo {
+    display: inline-block;
+    width: 115px;
+    padding: 9px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.tech-logo {
+    height: 30px;
+}
+
+.experience-date {
+    border-right: 1px solid #cdcdcdee;
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .experience-date {
+        border-right: none;
+        border-bottom: 1px solid #cdcdcdee;
+    }
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cursos-ciber {
+    height: 100px;
+    background-image: url('./img/cybersecurity.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cursos-data {
+    height: 100px;
+    background-image: url('./img/data.png');
+    background-size: cover;
+    background-position: center;
 }
