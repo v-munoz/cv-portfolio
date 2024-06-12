@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://vmaray.github.io/cv-portfolio/" target="_blank">CV-Portfolio</a>
+  <a href="https://v-munoz.github.io/cv-portfolio/" target="_blank">CV-Portfolio</a>
 </h1>
 <br>
 
@@ -11,4 +11,4 @@ Incluye:
 * Cursos y certificados
 * Proyectos destacados
 
-🔗 https://vmaray.github.io/cv-portfolio/
+🔗 https://v-munoz.github.io/cv-portfolio/
